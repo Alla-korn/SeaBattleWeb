@@ -4,9 +4,7 @@ import java.sql.*;
 
 public class Database {
     private void loadDataFromDatabase() {
-        String url = "jdbc:postgresql://localhost:5432/postgres";
-        String user = "postgres";
-        String password = "11112011";
+       
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             String sql = "SELECT * FROM battlesea";
