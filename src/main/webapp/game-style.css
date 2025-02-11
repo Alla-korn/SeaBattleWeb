@@ -1,0 +1,101 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #fff;
+}
+
+#gameArea{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 15px;
+}
+#gameArea .pcGameArea, #gameArea .userGameArea{
+    width: 50%;
+    float:left;
+    margin: 0 0 15px 0;
+    padding:0;
+    display: block;
+    margin-bottom: 20px;
+}
+#gameArea .gameField{
+    margin: 5px 15px 0 0;
+    display: block;
+    padding:0;
+}
+#gameArea .gameField div{
+    margin: -1px;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #fcfcfc;
+    border: 1px solid rgba(132, 250, 176, 1);
+    text-align: center;
+    color: #F44336;
+}
+#gameArea .gameField div .badge{
+    font-size: 2em;
+    color: #F44336;
+}
+#gameArea .gameField .ship{
+    background-color: rgba(132, 250, 176, 1);
+}
+#gameArea .btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid rgba(143, 211, 244, 1);
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.4;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: rgba(143, 211, 244, 1);
+}
+
+.footer htmlpreview-fallback{
+
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+    border: none;
+    height: 50px;
+    width: 300px;
+    margin-left: 135px;
+}
